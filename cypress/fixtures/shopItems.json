@@ -1,0 +1,12 @@
+[
+    {
+        "url": "products/food-sensitivity/",
+        "name": "Food Sensitivity Test",
+        "price": 199
+    },
+    {
+        "url": "products/cholesterol-and-lipids-test/",
+        "name": "Cholesterol & Lipids Test",
+        "price": 49
+    }
+]

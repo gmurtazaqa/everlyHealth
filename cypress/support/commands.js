@@ -23,3 +23,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('getQa', (value) => {
+    return cy.get(`[data-testid=${value}]`, {timeout:15000})
+})
